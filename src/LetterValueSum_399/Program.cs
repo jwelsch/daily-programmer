@@ -9,7 +9,12 @@
         {
             try
             {
-                var input = GetInput(args);
+                if (args.Length == 0)
+                {
+                    Console.WriteLine($"No command line input found.");
+                }
+
+                var input = args[0];
 
                 if (!File.Exists(input))
                 {
@@ -41,20 +46,7 @@
                 return null;
             }
 
-
             return args[0].ToLowerInvariant();
-        }
-
-        private static int SumLetterValues(string input)
-        {
-            var sum = 0;
-
-            foreach (var c in input)
-            {
-                sum += c - 96;
-            }
-
-            return sum;
         }
     }
 }
