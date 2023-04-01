@@ -11,14 +11,16 @@
             {
                 var input = GetInput(args);
 
-                if (input == null)
+                if (!File.Exists(input))
                 {
-                    return 1;
+                    var letterValueSum = new LetterValueSum();
+                    var sum = letterValueSum.Sum(input);
+                    Console.WriteLine($"{input} => {sum}");
                 }
+                else
+                {
 
-                var sum = SumLetterValues(input);
-
-                Console.WriteLine($"{input} => {sum}");
+                }
             }
             catch (Exception ex)
             {

@@ -111,7 +111,25 @@ namespace LetterValueSum_399_Tests
 
             var result = sut.Sum(input);
 
-            result.Should().Be(input.Sum(i => i));
+            var expected = input.Sum(i => i - 96);
+
+            result.Should().Be(expected);
+        }
+
+        [Fact]
+        public void When_input_is_microspectrophotometries_path_then_return_319()
+        {
+            _specimenBuilder.SetCreateHandler(CreateInput());
+
+            var input = "microspectrophotometries";
+
+            var sut = _autoSub.Resolve<LetterValueSum>();
+
+            var result = sut.Sum(input);
+
+            var expected = input.Sum(i => i - 96);
+
+            result.Should().Be(expected);
         }
     }
 }

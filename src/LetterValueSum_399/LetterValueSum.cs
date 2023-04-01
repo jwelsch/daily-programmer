@@ -6,7 +6,7 @@
         {
         }
 
-        public int Sum(string input)
+        public int Sum(string? input)
         {
             if (input == null)
             {
@@ -27,7 +27,7 @@
                     throw new ArgumentException($"Allowable characters are only 'a' through 'z'.");
                 }
 
-                sum += c;
+                sum += c - 'a' + 1;
             }
 
             return sum;
