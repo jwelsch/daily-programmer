@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterValueSum_399", "LetterValueSum_399\LetterValueSum_399.csproj", "{A27C0BF3-320D-4A9A-B791-60052A2859C1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7376316F-6179-4DF3-B5A5-83E650A835C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A5988647-99F6-40FA-9C97-68C111E64C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterValueSum_399_Tests", "LetterValueSum_399_Tests\LetterValueSum_399_Tests.csproj", "{0B90C079-BCB9-416C-84BD-C1F17555E0EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterValueSum_399", "src\LetterValueSum_399\LetterValueSum_399.csproj", "{A27C0BF3-320D-4A9A-B791-60052A2859C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterValueSum_399_Tests", "tests\LetterValueSum_399_Tests\LetterValueSum_399_Tests.csproj", "{0B90C079-BCB9-416C-84BD-C1F17555E0EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyProgrammer.Testing", "tests\DailyProgrammer.Testing\DailyProgrammer.Testing.csproj", "{696C8B5F-50D7-455D-AE40-9CB2F0A863F9}"
 EndProject

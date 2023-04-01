@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LetterValueSum_399\LetterValueSum_399.csproj" />
-    <ProjectReference Include="..\tests\DailyProgrammer.Testing\DailyProgrammer.Testing.csproj" />
+    <ProjectReference Include="..\..\src\LetterValueSum_399\LetterValueSum_399.csproj" />
+    <ProjectReference Include="..\DailyProgrammer.Testing\DailyProgrammer.Testing.csproj" />
   </ItemGroup>
 
 </Project>
